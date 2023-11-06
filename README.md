@@ -19,7 +19,7 @@ apt install git 或 yum install git
 然后cd到欲安装目录，执行
 ```shell
 git clone https://github.com/heaid/AUD
-cd Air-Universe-DockerInstall
+cd AUD
 ```
 ### 启动
 ```shell
