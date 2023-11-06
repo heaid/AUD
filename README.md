@@ -21,7 +21,10 @@ apt install git 或 yum install git
 git clone https://github.com/heaid/AUD
 cd Air-Universe-DockerInstall
 ```
-
+### 启动
+```shell
+docker-compose up -d
+```
 ### 配置配置文件
 一般来说，只需要修改 `airu.json` 中的 `panel` 部分即可
 
@@ -53,10 +56,7 @@ cd Air-Universe-DockerInstall
     "nodes_type": ["vmess", "ss"]
 ```
 
-### 启动
-```shell
-dc up -d
-```
+
 
 ### 多面板对接
 
